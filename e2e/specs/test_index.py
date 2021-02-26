@@ -60,6 +60,6 @@ def test_mandatory_fields(page):
     home_page.format_text("")
     
     # validate url and returned value
-    assert home_page.get_result_text() == "{wrong value}"
-    assert not "?money=" in home_page.get_url()
+    assert home_page.get_result_text() == "asdas{wrong value}"
+    assert not "?moneyasdasdasda=" in home_page.get_url()
 
