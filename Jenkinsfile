@@ -4,7 +4,7 @@ pipeline {
         stage ('E2E Tests') {
             agent {
                 docker { 
-                    image 'python:3.9.2'
+                    image 'echowuhao/pywright'
                     args '-u root --privileged'
                 }
             }
