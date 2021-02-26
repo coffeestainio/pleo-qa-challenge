@@ -5,7 +5,7 @@ from e2e.pages.base_page import BasePage
 btn_submit = '#submit'
 h1_title= 'h1'
 h2_title= 'h2'
-lbl_result = "#result"
+lbl_result = "#resultss"
 lbl_message = '.result-message'
 txt_money = "#money"
 
